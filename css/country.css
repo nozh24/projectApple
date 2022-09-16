@@ -1,0 +1,18 @@
+.country__list{
+  display: none;
+}
+.country__btn{
+  position: relative;
+  padding-right: 13px;
+}
+.country__btn:after{
+  content: '';
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 9px;
+  top: 50%;
+  height: 6px;
+  background: url('../img/arrow-down.svg') no-repeat center;
+  transform: translateY(-50%);
+}
